@@ -35,3 +35,13 @@ Deberás desarrollar una App en React que deberá actuar como cliente del API ya
 ### Punto opcional global
 
 - Usar Docker o Docker Compose para correr las apps.
+
+## Notas del desarrollador
+### Se implemento CLEAN Architecture
+
+- Application - Redux
+  - Toda la lógica de negocio reside en Redux Middleware
+- Views - React
+  - Todas las vistas y componentes
+- Infrastructure - Axios
+  - Todos los servicios
