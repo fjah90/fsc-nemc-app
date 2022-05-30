@@ -1,4 +1,4 @@
-import { loadFilesSuccess, LOAD_FILES } from '../application/actions/files';
+import { LOAD_FILES } from '../application/actions/files';
 import filesMiddleware from '../application/middleware/files';
 
 describe('files middleware', () => {
